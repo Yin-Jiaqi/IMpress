@@ -3,7 +3,15 @@
 ## Case study: RSA
 
 ```bash
-RSA-size = [512, 1024, 2048]
+    assert(RSA_size in [1024,512,2048,4096])
+    assert(RADIX in [256,512,1024])
+    assert(RSA_size%RADIX==0)
+    if RADIX==256:
+        assert(1<=level<=4)
+    elif RADIX==512:
+        assert(1<=level<=5)
+    else:
+        assert(1<=level<=6)
 ```
 
 level: keratsuba level
