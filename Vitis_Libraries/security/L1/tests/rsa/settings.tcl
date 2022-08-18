@@ -1,0 +1,14 @@
+#set XPART xcvc1902-vsva2197-2MP-e-S
+#set XPART xcvu27p-fsga2577-1-i
+#set XPART xcvu29p-fsga2577-1-e
+#set XPART xcvu37p-fsvh2892-3-e
+#set XPART xczu9eg-ffvb1156-2-e
+set XPART xcku035-fbva676-1-i
+set CSIM 1
+set CSYNTH 1
+set COSIM 0
+set VIVADO_SYN 1 
+set VIVADO_IMPL 0 
+set QOR_CHECK 0
+set XF_PROJ_ROOT "/home/jiaqiyin/rsa/Vitis_Libraries_512/security/"
+set Revision "2001012126" 

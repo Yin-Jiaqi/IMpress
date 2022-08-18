@@ -1,0 +1,121 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 8363
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Fri Dec 10 15:05:09 MST 2021
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Ubuntu
+OS Version: 5.11.0-44-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: 0
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	jiaqi
+User home directory: /home/jiaqi
+User working directory: /home/jiaqi/Desktop/Vitis_Libraries/security/L1/tests/rsa
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vivado
+HDI_APPROOT: /tools/Xilinx/Vivado/2021.2
+RDI_DATADIR: /tools/Xilinx/Vivado/2021.2/data
+RDI_BINDIR: /tools/Xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/jiaqi/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/jiaqi/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /home/jiaqi/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/tools/Xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/home/jiaqi/Desktop/Vitis_Libraries/security/L1/tests/rsa/vivado.log
+Vivado journal file: 	/home/jiaqi/Desktop/Vitis_Libraries/security/L1/tests/rsa/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-8363-jiaqi-H470M-DS3H
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /tools/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINXD_LICENSE_FILE: 22100@chickasaw.eng.utah.edu
+XILINX_DSP: /tools/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vivado/2021.2
+XILINX_SDK: /tools/Xilinx/Vitis/2021.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2021.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	308 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,987 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+selectMenuItem(PAResourceCommand.PACommandNames_LICENSE_MANAGE, "Manage License..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+// Run Command: PAResourceCommand.PACommandNames_LICENSE_MANAGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,933 MB. GUI used memory: 56 MB. Current time: 12/10/21, 3:05:10 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 132 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_LICENSE_MANAGE, "Manage License..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+// Run Command: PAResourceCommand.PACommandNames_LICENSE_MANAGE
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 72 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_LICENSE, "Obtain a License Key..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // ag
+// Run Command: PAResourceCommand.PACommandNames_LICENSE
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,938 MB. GUI used memory: 54 MB. Current time: 12/10/22, 3:10:00 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1032 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1096 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1015 ms.
