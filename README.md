@@ -1,6 +1,11 @@
-# IMpress
+# IMpress Re-test
 
-RSA-size: number of bit for decomposition
+## Case study: RSA
+
+```bash
+RSA-size = [512, 1024, 2048]
+```
+
 level: keratsuba level
 
 
