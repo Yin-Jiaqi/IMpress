@@ -22,14 +22,22 @@ Level: Karatsuba level
 RADIX: unit bitwidth
 ```
 
-### Example: RSA-512, RADIX=256, Level=2
+### Example: RSA-512, RADIX=256, Level=1
 
-    - Run impress.py (RSA folder) to generate template file. Default RSA-size=512, RADIX=256, level=2 which generate file under 'generate_file' folder
+    - Run impress.py (RSA folder) to generate template file. Default RSA-size=512, RADIX=256, level=1 which generate file under 'generate_file' folder
 
     - Replace modular.hpp, asymmetric.hpp,mul(RSA_size)_(level)_level_karatsuba.cpp   file in foler: Vitis_Libraries/security/L1/include/xf_security and also change main.cpp,test.hpp, and test.cpp files in folder: Vitis_Libraries/security/L1/tests/rsa/ with the given files for each RSA size.
 
     - Set your own device, Revision, work_folder in file Vitis_Libraries/security/L1/tests/rsa/setting.tcl
 
-    - ```bash cd Vitis_Libraries/security/L1/tests/rsa```
+    - cd Vitis_Libraries/security/L1/tests/rsa
 
     - Start simulation by 'vitis_hls run_hls.tcl'
+    
+### Baseline and IMpress (python commands; follow above instructions for compilation)
+
+    - Default Vitis : python impress.py --test_type default
+    - 1-level: python impress.py --RSA-size 512 --RADIX 256 --level 1
+    - 2-level: python impress.py --RSA-size 512 --RADIX 256 --level 2
+    - 3-level: python impress.py --RSA-size 512 --RADIX 256 --level 3
+    
