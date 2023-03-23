@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/asyam/Desktop/NTT/tfhe-ntt/HE-Multiplication-Million-bit-Mul-512-1024/HE_level_NTT_large_int_mul/ntt8192_int_product/solution1/./sim/autowrap/testbench/ntt8192.cpp_pre.cpp.tb.cpp

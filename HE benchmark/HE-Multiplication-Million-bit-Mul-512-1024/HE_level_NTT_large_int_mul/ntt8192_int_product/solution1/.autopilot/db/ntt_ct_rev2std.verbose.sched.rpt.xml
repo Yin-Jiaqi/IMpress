@@ -1,0 +1,49 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'ntt_ct_rev2std'" level="0">
+<item name = "Date">Thu Jan  6 11:31:02 2022
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:47 MST 2020)</item>
+<item name = "Project">ntt8192_int_product</item>
+<item name = "Solution">solution1 (Vitis Kernel Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcvu11p-flga2577-1-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">2.50 ns, 2.028 ns, 0.68 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">?, ?, ?, ?, ?, ?, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_243_1">?, ?, ?, -, -, 13, no</column>
+<column name=" + VITIS_LOOP_250_2">?, ?, 293, -, -, ?, no</column>
+<column name=" + VITIS_LOOP_256_3">?, ?, ?, -, -, ?, no</column>
+<column name="  ++ VITIS_LOOP_258_4">?, ?, 318, -, -, ?, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

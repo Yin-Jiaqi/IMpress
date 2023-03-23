@@ -1,0 +1,30 @@
+<AutoPilot:solution xmlns:AutoPilot="com.autoesl.autopilot.solution">
+    <name>
+        <value string="solution1"/>
+    </name>
+    <project>
+        <value string="ntt8192_int_product"/>
+    </project>
+    <flowTarget value="vitis"/>
+    <config>
+        <config_interface m_axi_latency="64" m_axi_alignment_byte_size="64" m_axi_max_widen_bitwidth="512" default_interface="kernel" m_axi_offset="slave"/>
+        <config_rtl register_reset_num="3"/>
+    </config>
+    <targetInfo>
+        <TargetInfo value="xcvu11p:-flga2577:-1-e"/>
+    </targetInfo>
+    <libraryList>
+        <library value="xilinx/virtexuplus/virtexuplus" name="DefaultPlatform"/>
+    </libraryList>
+    <clockList>
+        <clock name="default" period="2.5" default="false"/>
+    </clockList>
+    <Simulation argv="">
+        <SimFlow name="cosim" setup="false" dumpTrace="none" optimizeCompile="false" ldflags="" mflags="" compiledLibrary="" toolName="auto">
+            <Rtl name="systemc" active="false"/>
+            <Rtl name="verilog" active="true"/>
+            <Rtl name="vhdl" active="false"/>
+        </SimFlow>
+    </Simulation>
+</AutoPilot:solution>
+
